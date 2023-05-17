@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công nghệ thông tin</title>
+</head>
+<body>
+    <h2>Thống kê ngành Công nghệ thông tin</h2>
+    <table border="1">
+        <tr>
+            <th>Ngành</th>
+            <th>Số lượng sinh viên</th>
+            <th colspan="2" >Giới tính</th>
+            <th>Thu nhập trung bình (triệu VNĐ)</th>
+            <th>Độ khó dễ</th>
+        </tr>
+        <tr>
+            <td>Kỹ thuật phần mền</td>
+            <td>150</td>
+            <td>Nam 50%</td>
+            <td>Nữ 50%</td>
+            <td>15</td>
+            <td>Dễ</td>
+        </tr>
+        <tr>
+            <td>Hệ thống thông tin</td>
+            <td>100</td>
+            <td>Nam 40%</td>
+            <td>Nữ 60%</td>
+            <td>12</td>
+            <td>Trung bình</td>
+        </tr>
+        <tr>
+            <td>Mạng máy tính</td>
+            <td>80</td>
+            <td>Nam 60%</td>
+            <td>Nữ 40%</td>
+            <td>18</td>
+            <td>Khó</td>
+        </tr>
+        <tr>
+            <td>Trí tuệ nhân tạo</td>
+            <td>70</td>
+            <td>Nam 70%</td>
+            <td>Nữ 30%</td>
+            <td>20</td>
+            <td>Rất khó</td>
+        </tr>
+        <tr>
+            <td>An toàn thông tin</td>
+            <td>50</td>
+            <td>Nam 35%</td>
+            <td>Nữ 65%</td>
+            <td>16</td>
+            <td>Trung bình</td>
+        </tr>
+    </table>
+    <h2>Đăng kí nguyện vọng chuyên ngành</h2>
+    <form action="HTML" method="post">
+        <label for="name">Họ và tên:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="Gender">Giới tính:</label>
+        <select name="Gender" id="Gender">
+            <option value="male">Nam</option>
+            <option value="female">Nữ</option>
+        </select><br>
+        <label for="B" id="B">Nguyện vọng chuyên ngành:</label>
+        <select name="B">
+            <option value="Kỹ thuật phần mền">Kỹ thuật phần mền</option>
+            <option value="Hệ thống thông tin">Hệ thống thông tin</option>
+            <option value="Trí tuệ nhân tạo">Trí tuệ nhân tạo</option>
+
+        </select><br>
+        <input type="submit" value="Đăng kí">
+
+    </form>
+</body>
+</html>
