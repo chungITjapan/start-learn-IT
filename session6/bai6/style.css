@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 350px;
+    height: 650px;
+    border: 1px solid;
+    margin: 30px auto;
+    padding: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+.container2 {
+    margin: 10px;
+    padding-left: 30px;
+}
+li {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+video {
+    width: 200px;
+    padding-top: 20px;
+}
