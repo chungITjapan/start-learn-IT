@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 840px;
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+header {
+    display: flex;
+    flex-direction:  row;
+    position: relative;
+    width: 1170px;
+    height: 107px;
+    margin-left: 135px;
+}
+
+.title h2 {
+    width: 103px;
+    height: 19px;
+    color: white;
+    margin-left: 0;
+    margin-top: 44px;
+    /* position: absolute; */
+}
+
+.link {
+    margin-top: 44px;
+    margin-left: 771px;
+    position: absolute;
+}
+
+.link a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+header button {
+    width: 138px;
+    height: 43px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFD600;
+    background-color: rgba(255, 255, 255, 0.08);
+    position: absolute;
+    text-align: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 56px;
+    margin-top: 32px;
+    margin-left: 1032px;
+}
+
+hr {
+    width: 1170px;
+    margin: 1px 135px 0 135px;
+    border: 2px solid rgba(255, 255, 255, 0.06)
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    position: relative;
+}
+
+.content  h1 {
+    width: 570px;
+    height: 194px;
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 97px;
+    color: white;
+    position: absolute;
+    margin-top: 114px;
+    margin-left: 135px;
+}
+
+.content p {
+    width: 570px;
+    height: 71px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    color: white;
+    position: absolute;
+    margin-top: 332px;
+    margin-left: 135px;
+}
+
+.content .yellow {
+    width: 277px;
+    height: 62px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background-color: #FFD600;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 100px;
+    margin-top: 451px;
+    margin-left: 135px;
+}
+
+.content .black {
+    width: 277px;
+    height: 62px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFD600;
+    background-color: rgba(255, 255, 255, 0.08);;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 100px;
+    border: none;
+}
+
+.right {
+    position: relative;
+    width: 298px;
+    height: 330px;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.right .image {
+    width: 298px;
+    height: 330px;
+    position: absolute;
+    margin: 0;
+
+    border-radius: 814px;
+    z-index: 2;
+}
+
