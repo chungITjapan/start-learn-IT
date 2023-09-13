@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .accountManagement ul,
+  .accountManagement li {
+    display: inline-block;
+  }
+  .accountManagement a {
+    text-decoration: none;
+  }
+  .accountManagement {
+    margin: 0 auto;
+  }
+  .accountManagement tr,
+  .accountManagement td,
+  .accountManagement th {
+    border: 1px solid black;
+  }
+  .accountManagement table {
+    margin-top: 10px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  .form #accountNameSearch {
+    margin-left: 10px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #sort {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .page {
+    margin-left: 240px;
+  }
+  .dashboard-right-footer p {
+    margin-top: 15px;
+  }

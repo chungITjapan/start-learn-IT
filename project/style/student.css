@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .studentManagement ul,
+  .studentManagement li {
+    display: inline-block;
+  }
+  .studentManagement a {
+    text-decoration: none;
+  }
+  .studentManagement {
+    margin: 0 auto;
+  }
+  .studentManagement tr,
+  .studentManagement td,
+  .studentManagement th {
+    border: 1px solid black;
+  }
+  .studentManagement table {
+    margin-top: 10px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  .form #studentNameSearch {
+    margin-left: 10px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #sort {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .page {
+    margin-left: 240px;
+  }
+  .dashboard-right-footer p {
+    margin-top: 15px;
+  }
+  .item-status{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .item-gender{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+  }

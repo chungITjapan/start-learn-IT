@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .courseManagement ul,
+  .courseManagement li {
+    display: inline-block;
+  }
+  .courseManagement a {
+    text-decoration: none;
+  }
+  .courseManagement {
+    margin: 0 auto;
+  }
+  .courseManagement tr,
+  .courseManagement td,
+  .courseManagement th {
+    border: 1px solid black;
+  }
+  .courseManagement table {
+    margin-top: 10px;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  .form #courseNameSearch {
+    margin-left: 10px;
+    width: 250px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  #sort {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .page {
+    margin-left: 240px;
+  }
+  .dashboard-right-footer p{
+  margin-top: 15px;
+  }
